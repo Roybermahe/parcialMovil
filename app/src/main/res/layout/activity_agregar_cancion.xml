@@ -10,7 +10,8 @@
     <SearchView
         android:id="@+id/searchMusic"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        />
 
     <EditText
         android:id="@+id/cancion"
@@ -18,7 +19,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="cancion" />
+        android:text=""
+        android:hint="Cancion"/>
 
     <EditText
         android:id="@+id/artista"
@@ -26,7 +28,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="artista" />
+        android:text=""
+        android:hint="Artista"/>
 
     <EditText
         android:id="@+id/album"
@@ -34,14 +37,16 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="album" />
+        android:text=""
+        android:hint="Album"/>
     <EditText
         android:id="@+id/duracion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:text="duración" />
+        android:text=""
+        android:hint="Duración"/>
 
     <Button
         android:id="@+id/guardar"

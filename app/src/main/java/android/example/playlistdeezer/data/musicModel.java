@@ -14,4 +14,8 @@ public class musicModel {
         Duracion = duracion;
         this.cancion = cancion;
     }
+
+    public musicModel(int id) {
+        Id = id;
+    }
 }
