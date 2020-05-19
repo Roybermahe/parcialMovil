@@ -23,5 +23,18 @@
             android:textColor="#4d4d4d"
             android:textSize="20sp"
             android:textStyle="bold" />
+        <TextView
+            android:id="@+id/duration_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:padding="1dp"
+            android:text="Textotitulo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#4d4d4d"
+            android:textSize="15sp"
+            android:textStyle="normal" />
     </LinearLayout>
 </LinearLayout>
